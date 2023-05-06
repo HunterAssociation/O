@@ -8,10 +8,5 @@ BOT_TOKEN = "6173159110:AAFZwFeI9FpyHpfeYS81eiEeFOHFVM8o9Qs"
 
 app = Client("Uploader", API_ID, API_HASH, bot_token=BOT_TOKEN, plugins=dict(root="Geonime"))
 
-app.start()
 print("Bot Started !")
-
-idle()
-
-app.stop()
-print("Bot Stopped !")
+app.start()
