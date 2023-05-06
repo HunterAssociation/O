@@ -16,9 +16,15 @@ async def start(client, message):
   eps2 = await message.chat.ask("Input Episode 2:")
   eps3 = await message.chat.ask("Input Episode 3:")
   
-  if eps1:
-    await message.reply(f'Judul: {title.text}\nEpisode1: {studio.text}')
-  if eps2:
-    await message.reply(f'Judul: {title.text}\nEpisode1: {studio.text}\nEpisode2: {studio.text}')
-  if eps3:
-    await message.reply(f'Judul: {title.text}\nEpisode1: {studio.text}\nEpisode2: {studio.text}\nEpisode3: {studio.text}')
+  if eps1 == "-":
+    return
+  else:
+    await message.reply(f'Judul: {title.text}\nEpisode1: {eps1.text}')
+  if eps2 == "-":
+    return
+  else:
+    await message.reply(f'Judul: {title.text}\nEpisode1: {eps1.text}\nEpisode2: {eps2.text}')
+  if eps3 == "-":
+    return
+  else:
+    await message.reply(f'Judul: {title.text}\nEpisode1: {eps1.text}\nEpisode2: {eps2.text}\nEpisode3: {eps3.text}')
