@@ -17,7 +17,7 @@ async def main():
   
   await idle()
   
-  print("     Bot Stopped !")
+  print("   Bot Stopped !")
   await app.stop()
   
   
