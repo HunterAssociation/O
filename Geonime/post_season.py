@@ -12,19 +12,21 @@ async def start(client, message):
   premiered = await message.chat.ask("Input Premiered:")
   dateaired = await message.chat.ask("Input Date aired:")
   
-  eps1 = await message.chat.ask("Input Episode 1:")
-  eps2 = await message.chat.ask("Input Episode 2:")
-  eps3 = await message.chat.ask("Input Episode 3:")
+
+  eps1 = (await message.chat.ask("Input Episode 1:")
+    if eps1 == "-":
+      None
+    else:
+      await message.reply(f'Judul: {title.text}\nEpisode1: {eps1.text}'))
   
-  if eps1 == "-":
-    return
-  else:
-    await message.reply(f'Judul: {title.text}\nEpisode1: {eps1.text}')
-  if eps2 == "-":
-    return
-  else:
-    await message.reply(f'Judul: {title.text}\nEpisode1: {eps1.text}\nEpisode2: {eps2.text}')
-  if eps3 == "-":
-    return
-  else:
-    await message.reply(f'Judul: {title.text}\nEpisode1: {eps1.text}\nEpisode2: {eps2.text}\nEpisode3: {eps3.text}')
+  eps2 = (await message.chat.ask("Input Episode 2:")
+    if eps2 == "-":
+      None
+    else:
+      await message.reply(f'Judul: {title.text}\nEpisode1: {eps1.text}\nEpisode2: {eps2.text}'))
+  
+  eps3 = (await message.chat.ask("Input Episode 3:")
+    if eps3 == "-":
+      return
+    else:
+      await message.reply(f'Judul: {title.text}\nEpisode1: {eps1.text}\nEpisode2: {eps2.text}\nEpisode3: {eps3.text}'))
