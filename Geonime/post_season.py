@@ -18,4 +18,5 @@ async def start(client, message):
     xep1 = ""
   else:
     xep1 = f"eps: {eps1}"
-    await message.reply(xep1.text)
+    
+  await message.reply(f"{xep1.text}")
