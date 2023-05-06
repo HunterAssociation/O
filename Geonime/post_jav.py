@@ -9,7 +9,7 @@ async def start(client, message):
   server1 = await message.chat.ask("Input Video Server 1:")
   server2 = await message.chat.ask("Input Video Server 2:")
  
-  TEXT_MSG = f"""
+  TEXT_MSG = """
   <span><!--more--></span>
   <!--[ Thumbnail ]-->
   <div class="separator" style="clear: both;"><a href="{photo}" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" data-original-height="600" data-original-width="424" src="{photo}"/></a></div>
