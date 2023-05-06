@@ -5,12 +5,10 @@ from bot import app
 
 @Client.on_message(filters.command("jav"))
 async def start(client, message):
-  title = await message.chat.ask("Input Judul:")
   photo = await message.chat.ask("Input Photo (Url):")
   server1 = await message.chat.ask("Input Video Server 1:")
   server2 = await message.chat.ask("Input Video Server 2:")
-  
-  TITLE_MSG = f"{title}\n\n"
+ 
   TEXT_MSG = f"""
   <span><!--more--></span>
   <!--[ Thumbnail ]-->
@@ -78,4 +76,4 @@ async def start(client, message):
   """
 
   
-  await message.reply(TITLE_MSG + TEXT_MSG)
+  await message.reply(TEXT_MSG)
