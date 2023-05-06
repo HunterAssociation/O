@@ -1,4 +1,6 @@
 import pyromod
+import asyncio
+from uvloop import install
 from pyrogram import Client, idle
 
 
@@ -15,6 +17,12 @@ async def main():
   
   await idle()
   
-  await app.stop()
   print("Bot Stopped !")
+  await app.stop()
+  
+  
+loop = asyncio.get_event_loop()
+if __name__ == "__main__":
+   install()
+   loop.run_until_complete(main())
 
