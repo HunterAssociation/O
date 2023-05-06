@@ -12,12 +12,12 @@ app = Client("Uploader", API_ID, API_HASH, bot_token=BOT_TOKEN, plugins=dict(roo
 
 
 async def main():
-  print("Bot Started !")
+  print("\n\n     Bot Started !")
   await app.start()
   
   await idle()
   
-  print("Bot Stopped !")
+  print("     Bot Stopped !")
   await app.stop()
   
   
