@@ -14,19 +14,8 @@ async def start(client, message):
   
 
   eps1 = await message.chat.ask("Input Episode 1:")
-  if not eps1 == "-":
-      await message.reply(f'Judul: {title.text}\nEpisode1: {eps1.text}')
-  else: None
-      
-  
-  eps2 = await message.chat.ask("Input Episode 2:")
-  if not eps2 == "-":
-      await message.reply(f'Judul: {title.text}\nEpisode1: {eps1.text}\nEpisode2: {eps2.text}')
-  else: None
-     
-  
-  eps3 = await message.chat.ask("Input Episode 3:")
-  if not eps3 == "-":
-      await message.reply(f'Judul: {title.text}\nEpisode1: {eps1.text}\nEpisode2: {eps2.text}\nEpisode3: {eps3.text}')
-  else: None
-      
+  if eps1 == "-":
+    xep1 = ""
+  else:
+    xep1 = f"eps: {eps1}"
+    await message.reply(xeps1.text)
