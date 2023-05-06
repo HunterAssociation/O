@@ -3,7 +3,7 @@ from pyrogram.types import *
 from bot import app
 
 
-@Client.on_message(filters.command("post_season"))
+@Client.on_message(filters.command("jav"))
 async def start(client, message):
   title = await message.chat.ask("Input Judul:")
   synopsis = await message.chat.ask("Input Synopsis:")
