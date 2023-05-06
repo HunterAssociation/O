@@ -10,3 +10,4 @@ app = Client("Uploader", API_ID, API_HASH, bot_token=BOT_TOKEN, plugins=dict(roo
 
 print("Bot Started !")
 app.start()
+idle()
