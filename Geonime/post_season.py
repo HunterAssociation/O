@@ -27,6 +27,6 @@ async def start(client, message):
   
   eps3 = (await message.chat.ask("Input Episode 3:")
     if eps3 == "-":
-      return
+      None
     else:
       await message.reply(f'Judul: {title.text}\nEpisode1: {eps1.text}\nEpisode2: {eps2.text}\nEpisode3: {eps3.text}'))
