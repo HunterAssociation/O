@@ -8,7 +8,23 @@
 </div>
 
 
+<!--[ Synopsis ]-->
+<p id="synopsis"> PASTE </p>
+
+
+<!--[ Extra information ]-->
+<div id="extra-info">
+  <div>Country: <span>  Japan </span>
+  </div>
+  <div>Quality: <span> HD </span>
+  </div>  
+
+</div>
+
+
+
 <!--[ Streaming Player ]-->
+
 <div id="shadow"></div>
 <div class="DagPlaArea DagTo">
   <div class="video-content" id="PlayVideo">
@@ -16,7 +32,8 @@
       <div class="player-embed" id="pembed">
         <div class="playerload"></div>
         <div id="player_embed">
-          <div class="pframe"><iframe allowfullscreen="true" frameborder="0" height="100%" marginheight="0" marginwidth="0" mozallowfullscreen="true" scrolling="NO" src="PASTE" webkitallowfullscreen="true" width="100%"></iframe>
+          <div class="pframe">
+            <iframe allowfullscreen="true" frameborder="0" height="100%" marginheight="0" marginwidth="0" mozallowfullscreen="true" scrolling="NO" src="PASTE" webkitallowfullscreen="true" width="100%"></iframe>
           </div>
         </div>
       </div>
