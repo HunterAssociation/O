@@ -34,7 +34,7 @@
         <div class="playerload"></div>
         <div id="player_embed">
           <div class="pframe">
-            <iframe allowfullscreen="true" frameborder="0" height="100%" marginheight="0" marginwidth="0" mozallowfullscreen="true" scrolling="NO" src="PASTE" webkitallowfullscreen="true" width="100%"></iframe>
+            <iframe allowfullscreen="true" frameborder="0" height="100%" marginheight="0" marginwidth="0" mozallowfullscreen="true" scrolling="NO" src="SERVER1" webkitallowfullscreen="true" width="100%"></iframe>
           </div>
         </div>
       </div>
@@ -56,7 +56,7 @@
     <div class="itemright">
     <div class="icon DagShre">
         <svg aria-hidden="true" height="1em" preserveaspectratio="xMidYMid meet" role="img" viewbox="0 0 192 512" width="0.38em" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><path d="M176 432c0 44.112-35.888 80-80 80s-80-35.888-80-80s35.888-80 80-80s80 35.888 80 80zM25.26 25.199l13.6 272C39.499 309.972 50.041 320 62.83 320h66.34c12.789 0 23.331-10.028 23.97-22.801l13.6-272C167.425 11.49 156.496 0 142.77 0H49.23C35.504 0 24.575 11.49 25.26 25.199z" fill="currentColor"></path></svg>
-        <a href="https://t.me/GeonimeIndonesia" target="_blank">Join Telegram!</a>
+        <a href="https://t.me/NekopoiMp4" target="_blank">Join Telegram!</a>
       </div>
     </div>
   </div>
@@ -64,6 +64,7 @@
 
 
 <!--[ Streaming Server ]-->
+<center>
 <div class="server_option" style="padding:1px;">
   <div class="tabs servers">
     <span class="tablinks" id="serverOpen" onclick="openCity(event, 'VideoVard')"></span>
@@ -71,42 +72,12 @@
   <div id="server">
     <ul id="VideoVard" class="serverEpisode">
       <li>
-        <div class="DagPlayOpt" data-embed="PASTE1" data-id="Server-1">
-          <span>EPS 1</span> </div>
+        <div class="DagPlayOpt" data-embed="SERVER1" data-id="Server-1">
+          <span>SERVER 1</span> </div>
       </li><li>
-        <div class="DagPlayOpt" data-embed="PASTE2" data-id="Server-1">
-          <span>EPS 2</span> </div>
-      </li><li> 
-        <div class="DagPlayOpt" data-embed="PASTE3" data-id="Server-1">
-          <span>EPS 3</span> </div>
-      </li><li>
-        <div class="DagPlayOpt" data-embed="PASTE4" data-id="Server-1">
-          <span>EPS 4</span> </div>
-      </li><li>
-        <div class="DagPlayOpt" data-embed="PASTE5" data-id="Server-1">
-          <span>EPS 5</span> </div>
-      </li><li>
-        <div class="DagPlayOpt" data-embed="PASTE6" data-id="Server-1">
-          <span>EPS 6</span> </div>
-      </li><li>
-        <div class="DagPlayOpt" data-embed="PASTE7" data-id="Server-1">
-          <span>EPS 7</span> </div>
-      </li><li>
-        <div class="DagPlayOpt" data-embed="PASTE8" data-id="Server-1">
-          <span>EPS 8</span> </div>
-      </li><li>
-        <div class="DagPlayOpt" data-embed="PASTE9" data-id="Server-1">
-          <span>EPS 9</span> </div>
-      </li><li>
-        <div class="DagPlayOpt" data-embed="PASTE10" data-id="Server-1">
-          <span>EPS 10</span> </div>
-      </li><li>
-        <div class="DagPlayOpt" data-embed="PASTE11" data-id="Server-1">
-          <span>EPS 11</span> </div>
-      </li><li>
-        <div class="DagPlayOpt" data-embed="PASTE12" data-id="Server-1">
-          <span>EPS 12</span> </div>
+        <div class="DagPlayOpt" data-embed="SERVER2" data-id="Server-1">
+          <span>SERVER 2</span> </div>
       </li>
     </ul>
   </div>
-</div>
+</div></center>
