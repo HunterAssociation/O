@@ -25,4 +25,4 @@ async def _update_episode(client, message):
 </div></div></div></div></div>
   """
   
-  await answer.reply(MESSAGE)
+  await message.reply(MESSAGE)
